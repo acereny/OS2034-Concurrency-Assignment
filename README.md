@@ -10,7 +10,7 @@ This project compares three ways to run tasks in Python: sequential, multi-threa
 
 **Scenario 1 – I/O Simulation**  
 50 tasks, each sleeping for 0.1 seconds to simulate I/O. Compared execution times across all three methods.
-
+-----------------------------------
  |  Method        |      Time   |
 ----------------------------------
 |Sequential           ->  5.03s |
