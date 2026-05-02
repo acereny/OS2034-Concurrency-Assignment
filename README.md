@@ -47,5 +47,5 @@ report.pdf              # Full report
 ---
 
 
-Enis Karaarslan  
+Aslı Ceren Yılmaz
 Computer Engineering, 2nd Year
