@@ -12,10 +12,13 @@ This project compares three ways to run tasks in Python: sequential, multi-threa
 50 tasks, each sleeping for 0.1 seconds to simulate I/O. Compared execution times across all three methods.
 
  |  Method        |      Time   |
-
+----------------------------------
 |Sequential           ->  5.03s |
+----------------------------------
 |Threading (5)        ->  0.12s |
+----------------------------------
 |Multiprocessing (5)  -> 6.08s  |
+----------------------------------
 
 Threading was the fastest. Multiprocessing was even slower than sequential because spawning 50 processes on Windows has too much overhead for short tasks.
 
